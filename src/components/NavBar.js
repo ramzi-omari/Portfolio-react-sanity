@@ -4,7 +4,7 @@ import { SocialIcon } from "react-social-icons";
 
 const NavBar = () => {
   return (
-    <header className="bg-red-600">
+    <header className="bg-red-900">
       <div className="container mx-auto flex justify-between">
         <nav className="flex">
           <NavLink
@@ -13,7 +13,7 @@ const NavBar = () => {
             activeClassName="text-white"
             className="inflex-flex items-center py-6 px-3 mr-4 text-red-100 hover:text-green-800 text-4xl font-bold cursive tracking-widest"
           >
-            Kapehe
+            Ramzi
           </NavLink>
           <NavLink
             to="post"

@@ -55,6 +55,8 @@ used to add social network icons.
 
 - then import : `import { SocialIcon} from 'react-social-icons'`
 
+https://jaketrent.github.io/react-social-icons/
+
 ## React Router
 
 is used to navigate between components
