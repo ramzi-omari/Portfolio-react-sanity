@@ -4,10 +4,12 @@ import About from "./components/About";
 import SinglePost from "./components/SinglePost";
 import Post from "./components/Post";
 import Project from "./components/Project";
+import NavBar from "./components/NavBar";
 
 function App() {
   return (
     <BrowserRouter>
+      <NavBar></NavBar>
       <Switch>
         {/* to navigate into different 5 pages */}
         <Route component={Home} path="/" exact></Route>
