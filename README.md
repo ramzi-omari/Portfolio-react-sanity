@@ -46,7 +46,9 @@ before that we add prose class:
 
 - **activeClassName** when we are in this page / or button clicked
 
-### React Social Icons
+- **responsiveness** grid md:grid-cols-2 lg:grid-cols-3 : one column on smaller screen 2 on medium 3 on large screen
+
+## React Social Icons
 
 used to add social network icons.
 
@@ -66,3 +68,9 @@ is used to navigate between components
 install package : npm i react-router-dom
 
 and then import BrowserRouter Switch & Route in our app.js and wrap out component with it
+
+## Query Language (GROQ) (we can use GraphQL also)
+
+GROQ (Graph-Relational Object Queries) is a declarative language designed to query collections of largely schema-less JSON documents. Its primary design goals are expressive filtering, joining of several documents into a single response, and shaping the response to fit the client application.
+
+- `*` all data
